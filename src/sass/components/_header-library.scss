@@ -1,7 +1,7 @@
 .header {
     display: block;
 
-    // background-image: url(src\images\header_library\Rectangle_320.jpg);
+   background-image: url( /Filmoteka/src/images/header_library/rectangle\(320\).jpg );
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -34,11 +34,11 @@
     }
 
     @include media-min(768px) {
-        // background-image: url(src\images\header_library\Rectangle_768.jpg);
+       background-image: url( /Filmoteka/src/images/header_library/rectangle\(768\).jpg);
     }
 
     @include media-min(1200px) {
-        // background-image: url(src\images\header_library\Rectangle_1280.jpg);
+       background-image: url( /Filmoteka/src/images/header_library/rectangle\(1280\).jpg );
     }
 }
 
